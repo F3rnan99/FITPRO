@@ -102,11 +102,11 @@ if(!$result){
       echo"<div class='span12'>";
       echo"<div class='widget-box'>";
       echo"<div class='widget-title'> <span class='icon'> <i class='fas fa-info'></i> </span>";
-          echo"<h5>Message</h5>";
+          echo"<h5>Mensaje</h5>";
           echo"</div>";
           echo"<div class='widget-content'>";
               echo"<div class='error_ex'>";
-              echo"<h1>Registro Exitoso</h1>";
+              echo"<h1>Registrado!!</h1>";
               echo"<h3>¡Se han agregado los detalles correctamente!</h3>";
               echo"<p>Se añadieron los datos correctamente. Por favor haga clic en el botón para regresar.</p>";
               echo"<a class='btn btn-inverse btn-big'  href='members.php'>Regresar</a> </div>";

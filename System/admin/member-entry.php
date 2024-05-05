@@ -62,13 +62,13 @@ header('location:../index.php');
             <div class="control-group">
               <label class="control-label">Nombre Completo :</label>
               <div class="controls">
-                <input type="text" class="span11" name="fullname" placeholder="Fullname" />
+                <input type="text" class="span11" name="fullname" placeholder="Nombre Completo" />
               </div>
             </div>
             <div class="control-group">
               <label class="control-label">Usuario :</label>
               <div class="controls">
-                <input type="text" class="span11" name="username" placeholder="Username" />
+                <input type="text" class="span11" name="username" placeholder="Usuario" />
               </div>
             </div>
             <div class="control-group">
@@ -83,9 +83,9 @@ header('location:../index.php');
               <div class="controls">
               <select name="gender" required="required" id="select">
               <option value="Male" selected="selected">Seleccione</option>
-                  <option value="Male">Male</option>
-                  <option value="Female">Female</option>
-                  <option value="Other">Other</option>
+                  <option value="Male">Masculino</option>
+                  <option value="Female">Femenino</option>
+                  <option value="Other">Otro</option>
                 </select>
               </div>
             </div>
@@ -107,7 +107,7 @@ header('location:../index.php');
         <div class="widget-content nopadding">
           <div class="form-horizontal">
             <div class="control-group">
-              <label for="normal" class="control-label">Plans: </label>
+              <label for="normal" class="control-label">Planes: </label>
               <div class="controls">
                 <select name="plan" required="required" id="select">
                   <option value="1" selected="selected">1 Mes</option>

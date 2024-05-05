@@ -4,7 +4,7 @@ if(!isset($_SESSION['user_id'])){
 header('location:../index.php');	
 }
 ?>
-<!-- Visit codeastro.com for more projects -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,12 +32,6 @@ header('location:../index.php');
 <!--top-Header-menu-->
 <?php include 'includes/topheader.php'?>
 <!--close-top-Header-menu-->
-<!--start-top-serch-->
-<!-- <div id="search">
-  <input type="hidden" placeholder="Search here..."/>
-  <button type="submit" class="tip-bottom" title="Search"><i class="fa-search fa-white"></i></button>
-</div> -->
-<!--close-top-serch-->
 
 <!--sidebar-menu-->
 <?php $page='add-equip'; include 'includes/sidebar.php'?>
@@ -140,7 +134,7 @@ if(!$result){
 </style>
 
 <!--end-Footer-part-->
-<!-- Visit codeastro.com for more projects -->
+
 <script src="../js/excanvas.min.js"></script> 
 <script src="../js/jquery.min.js"></script> 
 <script src="../js/jquery.ui.custom.js"></script> 
@@ -164,25 +158,21 @@ if(!$result){
 <script src="../js/matrix.tables.js"></script> 
 
 <script type="text/javascript">
-  // This function is called from the pop-up menus to transfer to
-  // a different page. Ignore if the value returned is a null string:
+
   function goPage (newURL) {
 
-      // if url is empty, skip the menu dividers and reset the menu selection to default
       if (newURL != "") {
       
-          // if url is "-", it is this page -- reset the menu:
           if (newURL == "-" ) {
               resetMenu();            
           } 
-          // else, send page to designated URL            
+
           else {  
             document.location.href = newURL;
           }
       }
   }
 
-// resets the menu selection upon entry to this page:
 function resetMenu() {
    document.gomenu.selector.selectedIndex = 2;
 }
