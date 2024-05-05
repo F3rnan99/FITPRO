@@ -2,7 +2,7 @@
  include('dbcon.php'); ?>
 <!DOCTYPE html>
 <html lang="es">
-    <!-- Visit codeastro.com for more projects -->
+  
 <head>
         <title>Gym System Admin</title><meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,7 +21,7 @@
     
         <div id="loginbox">            
             <form id="loginform" method="POST" class="form-vertical" action="#">
-            <div class="control-group normal_text"> <h3><img src="img/icontest3.png" alt="Logo" /></h3></div>
+            <div class="control-group normal_text"> <h3><img src="img/icontest3.png" alt="Logo" width="200" height="150"/></h3></div>
                 <div class="control-group">
                     <div class="controls">
                         <div class="main_input_box">
@@ -72,7 +72,7 @@
                     }
             ?>
             <div class="pull-left">
-            <a href="customer/index.php"><h6>Login | Cliente</h6></a>
+            <a href="../index.html"><h6>Regresar</h6></a>
             </div>
 
             <div class="pull-right">
